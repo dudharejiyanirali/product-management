@@ -1,0 +1,47 @@
+
+[
+ 
+  {
+      "id": 1,
+      "product_name": "iPhone X",
+      "price": 899,
+      "images": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "product_qty": 1
+
+  },
+
+  {
+      "id": 2,
+      "product_name": "OPPOF19",
+      "price": 280,
+      "images": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+      "product_qty": 1
+
+  },
+  
+
+  {
+      "id": 3,
+      "product_name": "Samsung Galaxy Book",
+      "price": 1499,
+
+      "images": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+      "product_qty": 1
+
+  },
+  {
+      "id": 4,
+      "product_name": "Microsoft Surface Laptop 4",
+      "price": 1499,
+      "images": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+      "product_qty": 1
+     
+  },
+  {
+      "id": 5,
+      "product_name": "Infinix INBOOK",
+      "price": 1099,
+      "images": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+      "product_qty": 1
+
+  }]

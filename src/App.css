@@ -1,38 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {}
+
 .App {
+  font-family: sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login_button_div {
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  margin-top: 1rem;
+}
+
+.login_button {
+  background: linear-gradient(180deg, #fac000 0%, rgb(225, 133, 21) 100%);
+  min-height: 30px;
+  border-width: 0 !important;
+  border-radius: 5px !important;
+  outline: none !important;
+  padding: 10px 80px !important;
+  margin: auto !important;
+  color: #000 !important;
+  margin-top: 1rem !important;
+}
+
+.login_icon {
+  color: linear-gradient(180deg, #fac000 0%, rgb(225, 133, 21) 100%);
+  background: linear-gradient(180deg, #fac000 0%, rgb(225, 133, 21) 100%);
+  margin: 1rem;
+}
+
+.header_top {
+  background: linear-gradient(180deg, #fac000 0%, rgb(225, 133, 21) 100%);
+}
+
+.product_main {
+  padding: 2rem;
+}
+
+.cart_btn {
+  text-align: center;
+  background: linear-gradient(180deg, #fac000 0%, rgb(225, 133, 21) 100%);
+}
+.MuiButtonBase-root:focus{
+outline: none;
+}
+.error_text {
+  font-size: 12px;
+  color: red;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.shoping_container {
+  padding: 5rem;
+}
+
+.card-product .img_wrap {
+  border-radius: 3px 3px 0 0;
+
+  overflow: hidden;
+  position: relative;
+
+  text-align: center;
+}
+
+.card-product .img_wrap img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.card-product .info_wrap {
+  font-size: 18px;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.card-product .bottom_wrap {
+  padding: 15px;
+
+}
+
+.ShoppingCartIcon {
+  font-size: 23px;
+}
+
+.cart_main {
+  height: 100px;
+}
+
+.cart_container {
+  height: 100px;
+  padding: 2rem;
+}
+
+.cart_row {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.MuiButtonBase-root.MuiIconButton-root:focus {
+  outline: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header_title a:hover{
+  color: #fff !important;
+  text-decoration: none !important;
+  background-color: unset !important;
+}
+.header_title a:focus-visible{
+outline: none;
 }
